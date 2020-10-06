@@ -1,36 +1,7 @@
 ﻿@model IEnumerable< U2Actividad5_171G0250.Models.Clase>
     @{Layout = "_Layout";
 }
-@*<div class="slides">
 
-    @foreach (var item in Model.otrita)
-    {
-       
-        <img src="~/images/carousel@(item.Id).jpg">
-
-    }
-</div>
-
-<h1>Clasificación de los vertebrados</h1>
-
-<div class="clases">
-    @for (int i = 0; i < Model.clasesita.Length; i++)
-    {
-        @foreach (var cla in Model.clasesita[i])
-        {
-            <div>
-                <a href="~/Clasificacion/@cla.IdClaseNavigation.Nombre">
-                    <img src="clases/@(cla.Id).jpg">
-                    <h1>@cla.IdClaseNavigation.Nombre</h1>
-                    <p>@Html.Raw(cla.IdClaseNavigation.Descripcion)</p>
-                </a>
-            </div>
-
-        }}
-
-
-
-</div>*@
 
 
 <div class="slides">
